@@ -16,7 +16,7 @@ steps:
 - task: FtpUpload@2
   inputs:
     credentialsOption: 'inputs'
-    serverUrl: '184.73.24.206'
+    serverUrl: 'ec2-184-73-24-206.compute-1.amazonaws.com'
     username: 'Administrator'
     password: 'p&y''6)Nr<Gc4'
     rootDirectory: '/hello'
