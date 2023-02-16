@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
   demands:
-    - agent.test -equals # Agent Name
+    - test -equals # Agent Name
 
 
 steps:
