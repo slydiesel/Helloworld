@@ -8,7 +8,7 @@ trigger: none
 pool:
   name: test
   demands:
-    - agent.name -equals test
+    - agent.name -equals WIN-EI2VR56PL8P
 
 steps:
 - script: echo Hello, world!
