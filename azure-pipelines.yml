@@ -16,7 +16,5 @@ steps:
 - task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'test1'
-    sourceFolder: '*'
     contents: '**'
-    targetFolder: '/hello'
     readyTimeout: '20000'
