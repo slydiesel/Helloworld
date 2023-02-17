@@ -6,7 +6,7 @@
 trigger: none
 
 pool:
-  name: test
+  name: test1
   demands:
     - agent.name -equals WIN-EI2VR56PL8P
 
